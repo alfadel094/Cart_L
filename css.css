@@ -1,0 +1,97 @@
+.produckts ul{
+    display: flex;
+
+}
+
+
+.produckts ul li{
+
+
+   width: 100%;
+
+
+}
+
+
+
+ul li {
+    list-style: none;
+flex-wrap: wrap;
+border-radius: 9px solid black;
+width: 15%;
+max-height: 280px;
+text-align: center;
+
+}
+/* ul li h3 .fa-solid{
+position: absolute;
+top: 0px;
+    /* background-color: rgb(245, 246, 245); */
+  
+
+/*  */
+
+#display_korb i {
+    color: rgb(25, 202, 25);
+
+    font-size: 30px;
+    
+    font-weight: bolder;
+}
+/* .nummer{
+    position: absolute;
+    opacity: 5;
+} */
+.display_korb{
+display: flex;
+flex-direction: row;
+direction: rtl;
+padding: 5px;
+
+position: relative;
+}
+.display_korb #nummer{
+    top: 0px;
+   padding:3px 7px 1px 2px;
+  
+    position: absolute;
+    color: rgb(45, 51, 37);
+    font-weight: bolder;
+   font-size: larger;
+   
+    text-align: center;
+    cursor: pointer;
+}
+.display_korb .cart{
+    position: relative;
+    display: block;
+  z-index: 12;
+}
+
+
+
+ul li {
+    position: relative;
+}
+ul li h3 .fa-solid{
+    top: 0px;
+    background-color: green;
+    position: absolute;
+    text-align: center;
+
+}
+ul li h3 .fa-solid{
+    display: none;
+}
+ul li:hover .fa-solid{
+    display: inline-block;
+    cursor: pointer;
+}
+#display_korb {
+    cursor: pointer;
+}
+.price_Total{
+display: block;
+margin-right: 20px;
+cursor: pointer;
+}
